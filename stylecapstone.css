@@ -1,0 +1,189 @@
+header {
+  text-align: center;
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 200%;
+  color: rgb(255, 255, 255);
+  background-color: lightskyblue;
+  height: 80px;
+  padding-top: 30px;
+}
+
+body {
+  font-family: Lato;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #468ce7;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #030000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #0f04aa;
+  color: white;
+}
+
+.banner {
+  height: 200px;
+  width: 100%;
+  background-image: url(skylinewide.jpg);
+  background-size:cover;
+  background-position: center;
+  margin: auto;
+  opacity: 100%;
+  margin-top: 10px;
+}
+
+.visit_p {
+  width: 1000px;
+  margin: auto;
+}
+
+.history_p {
+  width: 1000px;
+  margin: auto;
+}
+
+.Tourism {
+  background-color: #dfcef7;
+  margin: 40px;
+}
+
+#about {
+  text-align: center;
+  padding: 5%;
+}
+#history {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+#tourism_title {
+  text-align: center;
+  padding-top: 2%; 
+  padding-bottom: 2%;
+}
+
+.box_1 {
+  float: left;
+  margin: auto;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 400px;
+  height: 200px;
+  border: 5px solid hsl(246, 96%, 21%);
+  margin: 10px;
+  text-align: center;
+}
+
+.box_2 {
+  float: right;
+  margin: auto;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 400px;
+  height: 200px;
+  border: 5px solid hsl(246, 96%, 21%);
+  margin: 10px;
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center; /* Centers the flex items horizontally */
+}
+
+.places {
+  text-align: center;
+margin-top: 50px;
+font-weight: bolder;
+text-decoration: underline;
+padding-bottom: 2%;
+}
+
+.Tourism {
+  margin: auto;
+  padding-bottom: 5%;
+}
+.tours{
+text-align: center;
+}
+
+.title_1 {
+  padding: 30px;
+}
+.place_1 {
+  background-color: rgb(200, 240, 196);
+  margin-bottom: 20px;
+}
+
+.p1{
+  width: 1000px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+
+.title_2 {
+  padding: 30px;
+}
+.place_2 {
+  background-color:rgb(251, 255, 211);
+  margin-bottom: 20px;
+}
+
+.p2{
+  width: 1000px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.title_3 {
+  padding: 30px;
+}
+
+.place_3 {
+  background-color: rgb(255, 231, 247);
+}
+
+.p3{
+  width: 1000px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: lightskyblue;
+  color: white;
+  margin-top: 30px;
+}
+
+img {
+  width: 700px;
+}
+
+p {
+  font-size: 20px;
+}
+
